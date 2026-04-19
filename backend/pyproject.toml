@@ -1,0 +1,11 @@
+[project]
+name = "ics-hrms-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic",
+    "fastapi",
+    "pymysql",
+    "sqlalchemy",
+    "uvicorn[standard]",
+]
